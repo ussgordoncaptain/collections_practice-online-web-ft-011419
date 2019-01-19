@@ -48,4 +48,10 @@ def find_a (arr)
   end
   return final
 end
-    
+def sum_array (arr)
+  running_tab= 0 
+  arr.each do |x|
+    running_tab += x
+  end
+  return running_tab
+end
