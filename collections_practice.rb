@@ -60,7 +60,7 @@ end
 def add_s(arr)
   arr.each_with_index do |ele, idx|
     if idx == 1
-      continue
+      
     else 
       arr[idx] += "s"
     end
