@@ -57,3 +57,12 @@ def sum_array (arr)
   end
   return running_tab
 end
+def add_s(arr)
+  arr.each_with_index do |ele, idx|
+    if idx == 1
+      continue
+    else 
+      arr[idx] += "s"
+  end
+  return arr
+end
