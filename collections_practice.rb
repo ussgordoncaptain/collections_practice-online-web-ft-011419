@@ -63,6 +63,7 @@ def add_s(arr)
       continue
     else 
       arr[idx] += "s"
+    end
   end
   return arr
 end
