@@ -59,9 +59,7 @@ def sum_array (arr)
 end
 def add_s(arr)
   arr.each_with_index do |ele, idx|
-    if idx == 1
-      
-    else 
+    if idx != 1
       arr[idx] += "s"
     end
   end
