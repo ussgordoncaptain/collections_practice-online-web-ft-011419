@@ -30,6 +30,7 @@ def reverse_array(arr)
   final << arr[ii]
   ii -= 1
   end 
+  return arr
 end
 def kesha_maker(arr)
   final = []
