@@ -21,6 +21,7 @@ def swap_elements(arr)
   eleB=arr[2]
   arr[1] = eleB
   arr[2] = eleA
+  return arr
 end
 def reverse_array(arr)
   ii= arr.size - 1
