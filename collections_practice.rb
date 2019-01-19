@@ -45,7 +45,7 @@ def find_a (arr)
   final = []
   arr.each do |x|
     if x.start_with?("a")
-     x << final
+     final << x
     end
   end
   return final
